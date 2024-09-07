@@ -1,0 +1,43 @@
+.selectbox {
+    @apply relative;
+
+    &.disabled {
+        @apply opacity-50 pointer-events-none;
+    }
+
+    .selectbox-facade {
+        @apply bg-white flex items-center justify-between select-none cursor-pointer;
+
+        .selectbox-placeholder[data-value="null"] {
+            @apply text-neutral-500;
+        }
+    }
+
+    .selectbox-list-container {
+        @apply bg-white absolute w-full border border-neutral-300 shadow rounded-md mt-px overflow-hidden z-10;
+
+        .selectbox-search-container {
+            @apply flex items-center border-b border-neutral-300 shadow-sm;
+
+            input {
+                @apply w-full outline-none px-3 py-2;
+            }
+
+            .fi {
+                @apply mx-3;
+            }
+        }
+
+        .selectbox-list {
+            @apply max-h-[160px] overflow-y-auto py-1;
+
+            .selectbox-item {
+                @apply px-3 py-1 cursor-pointer hover:bg-neutral-50;
+            }
+
+            .selectbox-list-empty {
+                @apply text-center px-3 py-1;
+            }
+        }
+    }
+}
