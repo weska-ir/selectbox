@@ -6,8 +6,8 @@ A JavaScript selectbox library.
 <!DOCTYPE html>
 <html>
   <head>
-    <script type="text/javascript" src="{{ asset('/path/to/libs/jquery.min.js') }}"></script>
-    <script type="text/javascript" src="{{ asset('/path/to/libs/selectbox-1.0.min.js') }}"></script>
+    <script type="text/javascript" src="/path/to/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="'/path/to/libs/selectbox-1.0.min.js"></script>
   </head>
   <body>
     <select id="example1" class="default" name="example1">
