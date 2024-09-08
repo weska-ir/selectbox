@@ -1,7 +1,7 @@
 # Selectbox 1.x
 A JavaScript selectbox library.
 
-## Usagge
+## Usage
 ```html
 <!DOCTYPE html>
 <html>
