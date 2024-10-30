@@ -14,7 +14,7 @@
     }
 
     .selectbox-list-container {
-        @apply bg-white absolute w-full border border-neutral-300 shadow rounded-md mt-px overflow-hidden z-10;
+        @apply bg-white absolute w-full border border-neutral-300 shadow rounded-md mt-px overflow-hidden z-[100];
 
         .selectbox-search-container {
             @apply flex items-center border-b border-neutral-300 shadow-sm;
